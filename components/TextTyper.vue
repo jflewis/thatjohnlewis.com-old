@@ -15,7 +15,7 @@ export default {
     }
   },
   mounted () {
-    let titlesIndex = 0
+    let titlesIndex = 1
 
     const deleteWord = () => {
       this.deleteInterval = setInterval(() => {
