@@ -1,6 +1,6 @@
 # thatjohnlewis.com
 
-> Personal website
+> My personal website/blog
 
 ## Build Setup
 
