@@ -40,7 +40,7 @@
     <section class="section">
         <div class="container">
             <div class="content">
-                <h1 class="title">What</h1>
+                <h1 class="title">What I do</h1>
                 <p>
                   I have extensive experience developing and maintaining medium to large size Node.js, Rails, and Java projects.
                 </p>
