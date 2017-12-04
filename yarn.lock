@@ -9,12 +9,6 @@
     follow-redirects "^1.2.5"
     is-buffer "^1.1.5"
 
-"@nuxtjs/bulma@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/bulma/-/bulma-1.1.0.tgz#be307a8622705c794680946affda8898a4699e34"
-  dependencies:
-    bulma "^0.6.1"
-
 "@nuxtjs/font-awesome@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/font-awesome/-/font-awesome-1.0.3.tgz#66a88c8d9b0883dca992e3dd72e53fce22fcc418"
@@ -4297,6 +4291,10 @@ nopt@^4.0.1, nopt@~4.0.1:
   dependencies:
     abbrev "1"
     osenv "^0.1.4"
+
+nord@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/nord/-/nord-0.2.1.tgz#044ed8e00331c84a96dc4c670f080a72572c3cf9"
 
 normalize-package-data@^2.0.0, normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-data@^2.4.0, "normalize-package-data@~1.0.1 || ^2.0.0", normalize-package-data@~2.4.0:
   version "2.4.0"
