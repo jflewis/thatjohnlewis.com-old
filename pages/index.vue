@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title is-spaced">
-                  <text-typer v-bind:titles="['Software Developer','DevOps Engineer', 'Maker', 'Buzz Word Aficionado']"></text-typer>
+                  <text-typer v-bind:titles="['Software Developer','DevOps Engineer', 'Maker', 'Agile Ready', 'Buzz Word Aficionado']"></text-typer>
                 </h1>
                 <h2 class="subtitle">
                     <img class="picture" src="/images/profile.JPG" alt="Portrait" />
@@ -42,13 +42,13 @@
             <div class="content">
                 <h1 class="title">What</h1>
                 <p>
-                     I have extensive experience developing and maintaining medium to large size Rails, Node.js, and Java projects.
+                  I have extensive experience developing and maintaining medium to large size Node.js, Rails, and Java projects.
                 </p>
                 <p>
-                   I current enjoy working on and playing with data driven applications, self improvment, Internet Privacy, Virtual reality, Cooking and my awesome dog, Copper.
+                   I current enjoy working on and playing with data driven applications, self improvment, Internet privacy, virtual reality, cooking and my awesome family.
                 </p>
                 <p>
-                    I believe in following best practices. Unit and functional testing, TDD, code reviews, and CI/CD to name a few. The stubbern may believe this slows down time to delieverable but I believe, in the end,
+                    I believe in following best practices. Unit and functional testing, TDD, code reviews, and CI/CD to name a few. The stubbern may believe this slows down time to deliverable but I believe, in the end,
                     following these best practices leads to a better end product that users will love. These practices also make the developers job easier which leads to happier developers.
                 </p>
                 <p>Happy developers ❤️❤️ Better code.</p>
@@ -64,7 +64,7 @@
                 <h1 class="title">Contact Me</h1>
                 <p>Feel free to reach out to me at <a href="mailto:lewisjnerd@gmail.com">lewisjnerd@gmail.com</a> or using any of the sites above.
                 </p>
-                <p><strong>Note:</strong> I'm not currently looking for new job but if you feel that I would be a good fit for your company feel free to reach out.</p>
+                <p><strong>Note:</strong> I am not actively looking for a new job but if you feel I am a good fit for your company feel free to reach out.</p>
             </div>
         </div>
     </section>
@@ -72,35 +72,9 @@
 </template>
 
 <script>
-// import { createClient } from '~/plugins/contentful.js'
-// import VueMarkdown from 'vue-markdown'
 import TextTyper from '~/components/TextTyper.vue'
-// const client = createClient()
-// const typerText = new TyperText([
-//   'Software Developer',
-//   'DevOps Engineer',
-//   'Maker',
-//   'Buzz Word Aficionado',
-//   'Process Leader'
-// ])
-// typerText.type()
 
 export default {
-  // `env` is available in the context object
-  // asyncData ({ env }) {
-  //   return client
-  //     .getEntries({
-  //       content_type: env.CTF_BLOG_POST_TYPE_ID,
-  //       order: '-sys.createdAt'
-  //     })
-  //     .then(posts => {
-  //       return { posts: posts.items }
-  //     })
-  //     .catch(console.error)
-  // },
-  // components: {
-  //   VueMarkdown
-  // }
   components: {
     TextTyper
   }
@@ -110,4 +84,3 @@ export default {
 <style lang="scss" scoped>
 
 </style>
-
