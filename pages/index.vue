@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title is-spaced">
-                  <text-typer v-bind:titles="['Software Developer','DevOps Engineer', 'Maker', 'Agile Ready', 'Buzz Word Aficionado']"></text-typer>
+                  <text-typer v-bind:titles="['Software Developer', 'Maker', 'Data Driven', 'Software Guru', 'Buzz Word Aficionado']"></text-typer>
                 </h1>
                 <h2 class="subtitle">
                     <img class="picture" src="/images/profile.JPG" alt="Portrait" />

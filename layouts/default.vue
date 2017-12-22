@@ -1,16 +1,13 @@
 <template>
-  <div>
+  <div id="site">
     <navbar></navbar>
-    <nuxt/>
+    <nuxt id="site-content"/>
     <footer class="footer">
       <div class="container">
           <div class="content has-text-centered">
               <p>
-                  Site built by me, John Lewis, using the following projects...
+                  Site built by me, John Lewis.
               </p>
-              <a href="https://bulma.io">
-                  <img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">
-              </a>
           </div>
       </div>
     </footer>
@@ -26,5 +23,14 @@
     }
   }
 </script>
-<style>
+<style lang="scss" scoped>
+  #site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  #site-content {
+    flex: 1;
+  }
 </style>

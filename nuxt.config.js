@@ -1,4 +1,4 @@
-const config = require('./.contentful.json')
+const contentfulConfig = require('./.contentful.json')
 
 module.exports = {
   /*
@@ -34,12 +34,33 @@ module.exports = {
     '@nuxtjs/font-awesome'
   ],
 
-  // Contentful configs
   env: {
-    CTF_SPACE_ID: config.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
-    CTF_PERSON_ID: config.CTF_PERSON_ID,
-    CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID
+    CTF_SPACE_ID: contentfulConfig.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: contentfulConfig.CTF_CDA_ACCESS_TOKEN,
+    CTF_PERSON_ID: contentfulConfig.CTF_PERSON_ID,
+    CTF_BLOG_POST_TYPE_ID: contentfulConfig.CTF_BLOG_POST_TYPE_ID
+  },
+
+  generate: {
+    // Generate post pages dynamically from contentful.
+    routes () {
+      const { createClient } = require('./plugins/contentful.js')
+
+      const client = createClient()
+      return client.getEntries({
+        'content_type': 'post',
+        order: '-sys.createdAt'
+      })
+        .then((posts) => {
+          return posts.items.map((post) => {
+            return {
+              route: `/posts/${post.fields.slug}`,
+              payload: post
+            }
+          })
+        })
+        .catch(console.error)
+    }
   },
 
   /*
