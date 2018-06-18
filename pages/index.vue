@@ -18,7 +18,7 @@
         <div class="content">
           <h1 class="title">Who Am I?</h1>
           <p>
-              I'm a full stack developer currently working on state of the art health survielence software at John Hopkins University Applied Phyiscs Lab.
+              I am a Full stack developer for Shift Lab.
           </p>
           <p>
               I graduated from Millersville University of Pennsylvania in 2015 with a degree in Computer Science.
@@ -64,7 +64,6 @@
                 <h1 class="title">Contact Me</h1>
                 <p>Feel free to reach out to me at <a href="mailto:lewisjnerd@gmail.com">lewisjnerd@gmail.com</a> or using any of the sites above.
                 </p>
-                <p><strong>Note:</strong> I am not actively looking for a new job but if you feel I am a good fit for your company feel free to reach out.</p>
             </div>
         </div>
     </section>
