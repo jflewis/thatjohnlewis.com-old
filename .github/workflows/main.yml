@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  PR-awarder:
+    runs-on: ubuntu-latest
+    name: "BONUSLY AWARDER"
+    steps:
+    - name: Award bonus of PR close
+      id: bonusly-pr
+      uses: jflewis/bonusly-rewarder
+      with:
+        bonusly_token: ${{ secrets.bonuslyToken }}
+        user_map: '{ "kpollich": "@kyle.pollich" }'
+        point_count: 2
+
