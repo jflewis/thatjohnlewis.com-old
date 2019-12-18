@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Award bonus of PR close
       id: bonusly-pr
-      uses: 'jflewis/bonusly-rewarder@v1.6.0'
+      uses: 'jflewis/bonusly-rewarder@v1.7.0'
       with:
         bonusly_token: ${{ secrets.bonuslyToken }}
         user_map: '{ "kpollich": "@kyle.pollich", "calebgmahala": "@caleb.mahala" }'
