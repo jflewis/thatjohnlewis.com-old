@@ -18,7 +18,7 @@
         <div class="content">
           <h1 class="title">Who Am I?</h1>
           <p>
-              I am a Full stack developer for Shift Lab.
+              Software developer @ <a href="https://h1.co">H1.co</a>
           </p>
           <p>
               I graduated from Millersville University of Pennsylvania in 2015 with a degree in Computer Science.
@@ -27,9 +27,6 @@
           </p>
           <p>
               Making bad software great software since 2015
-          </p>
-          <p>
-              BTW I'm not that <a href="http://not.thatjohnlewis.com"><strong>John Lewis</strong></a>
           </p>
             </div>
       </div>
@@ -45,7 +42,7 @@
                   I have extensive experience developing and maintaining medium to large size Node.js, Rails, and Java projects.
                 </p>
                 <p>
-                   I current enjoy working on and playing with data driven applications, self improvment, Internet privacy, virtual reality, cooking and my awesome family.
+                   I currently enjoy working on and playing with data driven applications, self improvment, Internet privacy, virtual reality, cooking and my awesome family.
                 </p>
                 <p>
                     I believe in following best practices. Unit and functional testing, TDD, code reviews, and CI/CD to name a few. The stubbern may believe this slows down time to deliverable but I believe, in the end,
