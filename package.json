@@ -17,14 +17,14 @@
     "bulma": "^0.6.1",
     "contentful": "^5.0.5",
     "nord": "^0.2.1",
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "^3.0.0",
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-html": "^3.1.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
@@ -33,6 +33,6 @@
     "install": "^0.10.2",
     "node-sass": "^4.7.2",
     "npm": "^5.5.1",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^13.2.0"
   }
 }
